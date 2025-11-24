@@ -6,3 +6,6 @@ def load_interactions():
 
 def load_items():
     return pd.read_csv(f"{DATA_PATH}/items.csv")
+
+def load_samples():
+    return pd.read_csv(f"{DATA_PATH}/sample_submission.csv")
